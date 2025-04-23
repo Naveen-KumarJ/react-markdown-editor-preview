@@ -1,12 +1,34 @@
-# React + Vite
+# React Markdown Editor & Live Preview 📝⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, responsive Markdown Editor with Live Preview, built using **React**, **Tailwind CSS**, and **React Markdown**.
 
-Currently, two official plugins are available:
+> Perfect for developers, bloggers, or note-takers who want real-time preview of their markdown content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🖋️ Markdown Editor with formatting buttons
+- ⚡ Live preview using `react-markdown` and `remark-gfm`
+- 🖼️ Support for bold, italic, headings, and image syntax
+- 📱 Fully responsive design
+- 🎨 Built with Tailwind CSS for styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Live Preview
+
+[Live Demo](https://react-markdown-editor-preview.vercel.app/)
+
+## 🛠️ Tech Stack
+
+- React
+- Tailwind CSS
+- react-markdown
+- remark-gfm
+- react-icons
+
+## 🤝 Contributions
+Contributions are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+```bash
+git clone https://github.com/your-username/react-markdown-editor-preview.git
+cd react-markdown-editor-preview
+npm install
+npm run dev
